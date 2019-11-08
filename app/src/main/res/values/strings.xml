@@ -2,5 +2,5 @@
     <string name="app_name">Tareas</string>
     <string name="pista_usuario">Usuario</string>
     <string name="pista_contraseña">Contraseña</string>
-    <string name="boton_iniciar_sesion">Iniciar sesion</string>
+    <string name="boton_iniciar_sesion">Iniciar sesión</string>
 </resources>
