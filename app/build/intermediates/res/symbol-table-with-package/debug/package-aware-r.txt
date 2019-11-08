@@ -428,6 +428,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color textColor
+color textColorHint
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -678,6 +680,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnIniciarSesion
 id buttonPanel
 id center
 id center_horizontal
@@ -697,6 +700,7 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
+id editText2
 id edit_query
 id end
 id expand_activities_button
@@ -779,6 +783,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textUsuario
 id time
 id title
 id titleDividerNoCustom
@@ -881,6 +886,9 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string boton_iniciar_sesion
+string pista_contraseña
+string pista_usuario
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
