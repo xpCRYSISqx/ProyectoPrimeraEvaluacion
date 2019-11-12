@@ -15,11 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*SharedPreferences preferencias = getPreferences(MODE_PRIVATE);
-        SharedPreferences.Editor editor = preferencias.edit();
-        editor.putString("usuario", "admin");
-        editor.putString("contrasena", "admin");
-        editor.commit();*/
     }
 
     public void iniciarSesion(View view){
