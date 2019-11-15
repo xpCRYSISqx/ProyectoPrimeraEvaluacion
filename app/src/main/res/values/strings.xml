@@ -3,4 +3,6 @@
     <string name="pista_usuario">Usuario</string>
     <string name="pista_contraseña">Contraseña</string>
     <string name="boton_iniciar_sesion">Iniciar sesión</string>
+    <string name="boton_lista_hechas">Hechas</string>
+    <string name="boton_lista_pendientes">Pendientes</string>
 </resources>

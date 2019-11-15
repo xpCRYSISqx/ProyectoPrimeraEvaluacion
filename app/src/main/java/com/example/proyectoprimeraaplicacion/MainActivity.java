@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         EditText usuario = (EditText) findViewById(R.id.textUsuario);
         EditText contrasena = (EditText) findViewById(R.id.textContrasena);
 
-        if(preferencias.getString("usuario","").equalsIgnoreCase(usuario.getText().toString()) && preferencias.getString("contrasena","").equalsIgnoreCase(contrasena.getText().toString())){
+        if(preferencias.getString("usuario","").equals(usuario.getText().toString()) && preferencias.getString("contrasena","").equals(contrasena.getText().toString())){
             Intent i = new Intent(this, PantallaPrincipal.class);
             startActivity(i);
         }
