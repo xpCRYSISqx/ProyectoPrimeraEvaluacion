@@ -9,7 +9,7 @@
     tools:context=".NuevaTarea">
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/textNombre"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/textDescripcion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -32,12 +32,12 @@
         android:inputType="textPersonName"
         android:textColor="@color/textColor"
         android:textColorHint="@color/textColorHint"
-        app:layout_constraintEnd_toEndOf="@+id/editText2"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintEnd_toEndOf="@+id/textNombre"
+        app:layout_constraintStart_toStartOf="@+id/textNombre"
+        app:layout_constraintTop_toBottomOf="@+id/textNombre" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/textFecha"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -46,20 +46,20 @@
         android:inputType="date"
         android:textColor="@color/textColor"
         android:textColorHint="@color/textColorHint"
-        app:layout_constraintStart_toStartOf="@+id/editText4"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintStart_toStartOf="@+id/textDescripcion"
+        app:layout_constraintTop_toBottomOf="@+id/textDescripcion" />
 
     <Spinner
         android:id="@+id/prioridad"
         android:layout_width="150dp"
         android:layout_height="45dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="@+id/editText4"
-        app:layout_constraintStart_toEndOf="@+id/editText5"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintEnd_toEndOf="@+id/textDescripcion"
+        app:layout_constraintStart_toEndOf="@+id/textFecha"
+        app:layout_constraintTop_toBottomOf="@+id/textDescripcion" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/textCoste"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -68,16 +68,16 @@
         android:inputType="numberDecimal"
         android:textColor="@color/textColor"
         android:textColorHint="@color/textColorHint"
-        app:layout_constraintEnd_toEndOf="@+id/editText5"
-        app:layout_constraintStart_toStartOf="@+id/editText5"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintEnd_toEndOf="@+id/textFecha"
+        app:layout_constraintStart_toStartOf="@+id/textFecha"
+        app:layout_constraintTop_toBottomOf="@+id/textFecha" />
 
     <Button
         android:id="@+id/crearN"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
         android:background="@color/colorPrimaryDark"
+        android:onClick="crearNuevaTarea"
         android:text="@string/boton_crear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -86,7 +86,6 @@
         android:id="@+id/cancelarN"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
         android:background="@color/colorPrimaryDark"
         android:onClick="cancelarNuevaTarea"
         android:text="@string/boton_cancelar"

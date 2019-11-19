@@ -12,4 +12,7 @@
     <string name="pista_fecha">Fecha</string>
     <string name="boton_cancelar">Cancelar</string>
     <string name="boton_crear">Crear</string>
+    <string name="actividad_nueva_tarea">Nueva tarea</string>
+    <string name="actividad_tareas_pendientes">Tareas pendientes</string>
+    <string name="actividad_tareas_hechas">Tareas hechas</string>
 </resources>
