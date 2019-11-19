@@ -3,6 +3,13 @@
     <string name="pista_usuario">Usuario</string>
     <string name="pista_contraseña">Contraseña</string>
     <string name="boton_iniciar_sesion">Iniciar sesión</string>
-    <string name="boton_lista_hechas">Hechas</string>
+    <string name="boton_lista_nueva">Nueva Tarea</string>
     <string name="boton_lista_pendientes">Pendientes</string>
+    <string name="boton_lista_hecha">Hechas</string>
+    <string name="pista_nombre">Nombre</string>
+    <string name="pista_descripcion">Descripción</string>
+    <string name="pista_coste">Coste</string>
+    <string name="pista_fecha">Fecha</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_crear">Crear</string>
 </resources>

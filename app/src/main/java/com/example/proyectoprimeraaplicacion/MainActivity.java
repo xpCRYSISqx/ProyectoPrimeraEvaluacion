@@ -15,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SharedPreferences preferencias = getPreferences(MODE_PRIVATE);
+        if(preferencias.getString("usuario","nada").equals("nada")){
+            SharedPreferences.Editor editor = preferencias.edit();
+            editor.putString("usuario", "admin");
+            editor.putString("contrasena", "admin");
+            editor.commit();
+        }
     }
 
     public void iniciarSesion(View view){
@@ -23,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         EditText contrasena = (EditText) findViewById(R.id.textContrasena);
 
         if(preferencias.getString("usuario","").equals(usuario.getText().toString()) && preferencias.getString("contrasena","").equals(contrasena.getText().toString())){
-            Intent i = new Intent(this, PantallaPrincipal.class);
+            Intent i = new Intent(this, ListaTareasPendientes.class);
             startActivity(i);
         }
         else{

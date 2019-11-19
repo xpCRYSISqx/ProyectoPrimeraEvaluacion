@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListaTareasPendientes"></activity>
-        <activity android:name=".ListaTareas" />
-        <activity android:name=".PantallaPrincipal" />
+        <activity android:name=".NuevaTarea" android:label="Nueva Tarea"></activity>
+        <activity android:name=".ListaTareasPendientes" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
