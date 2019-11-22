@@ -25,31 +25,41 @@
 17-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.proyectoprimeraaplicacion.ListaTareasPendientes" />
-20-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:9-68
-20-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:19-56
-21        <activity android:name="com.example.proyectoprimeraaplicacion.ListaTareas" />
-21-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:9-49
-21-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:19-46
-22        <activity android:name="com.example.proyectoprimeraaplicacion.PantallaPrincipal" />
-22-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:9-55
-22-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:19-52
-23        <activity android:name="com.example.proyectoprimeraaplicacion.MainActivity" >
-23-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:15:9-21:20
-23-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:15:19-47
-24            <intent-filter>
-24-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:16:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:17:17-69
-25-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:17:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:19:17-77
-27-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:9-103
+22            android:name="com.example.proyectoprimeraaplicacion.NuevaTarea"
+22-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:19-45
+23            android:label="@string/actividad_nueva_tarea" />
+23-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:46-91
+24        <activity
+24-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:9-110
+25            android:name="com.example.proyectoprimeraaplicacion.ListaTareasPendientes"
+25-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:19-56
+26            android:label="@string/actividad_tareas_pendientes" />
+26-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:57-108
+27        <activity
+27-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:9-102
+28            android:name="com.example.proyectoprimeraaplicacion.ListaTareasHechas"
+28-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:19-52
+29            android:label="@string/actividad_tareas_hechas" />
+29-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:53-100
+30        <activity android:name="com.example.proyectoprimeraaplicacion.MainActivity" >
+30-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:15:9-21:20
+30-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:15:19-47
+31            <intent-filter>
+31-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:16:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:17:17-69
+32-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:19:17-77
+34-->C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

@@ -70,16 +70,22 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IN
 		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.proyectoprimeraaplicacion.NuevaTarea
+ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:9-103
+	android:label
+		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:46-91
+	android:name
+		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:19-45
 activity#com.example.proyectoprimeraaplicacion.ListaTareasPendientes
-ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:9-68
+ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:9-110
+	android:label
+		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:57-108
 	android:name
-		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:12:19-56
-activity#com.example.proyectoprimeraaplicacion.ListaTareas
-ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:9-49
-	android:name
-		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:19-46
-activity#com.example.proyectoprimeraaplicacion.PantallaPrincipal
-ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:9-55
+		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:13:19-56
+activity#com.example.proyectoprimeraaplicacion.ListaTareasHechas
+ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:9-102
+	android:label
+		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:53-100
 	android:name
 		ADDED from C:\ProgramacionAndroid\ProyectoPrimeraEvaluacion\app\src\main\AndroidManifest.xml:14:19-52
 activity#com.example.proyectoprimeraaplicacion.MainActivity

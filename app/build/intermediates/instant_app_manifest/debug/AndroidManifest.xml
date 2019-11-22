@@ -17,10 +17,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.proyectoprimeraaplicacion.ListaTareasPendientes" />
-        <activity android:name="com.example.proyectoprimeraaplicacion.ListaTareas" />
-        <activity android:name="com.example.proyectoprimeraaplicacion.PantallaPrincipal" />
+        <activity
+            android:name="com.example.proyectoprimeraaplicacion.NuevaTarea"
+            android:label="@string/actividad_nueva_tarea" />
+        <activity
+            android:name="com.example.proyectoprimeraaplicacion.ListaTareasPendientes"
+            android:label="@string/actividad_tareas_pendientes" />
+        <activity
+            android:name="com.example.proyectoprimeraaplicacion.ListaTareasHechas"
+            android:label="@string/actividad_tareas_hechas" />
         <activity android:name="com.example.proyectoprimeraaplicacion.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
