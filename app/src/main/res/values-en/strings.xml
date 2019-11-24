@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="acerca_de">About App</string>
+    <string name="actividad_nueva_tarea">New task</string>
+    <string name="actividad_tareas_hechas">Done tasks</string>
+    <string name="actividad_tareas_pendientes">Pending tasks</string>
+    <string name="autor">Author: Mikel Gozalo Quintás</string>
+    <string name="borrar_tarea">Delete</string>
+    <string name="boton_cancelar">Cancel</string>
+    <string name="boton_crear">Create</string>
+    <string name="boton_iniciar_sesion">Log in</string>
+    <string name="boton_lista_hecha">Done</string>
+    <string name="boton_lista_nueva">New Task</string>
+    <string name="boton_lista_pendientes">Pending</string>
+    <string name="cambiar_contrasena">Change Password</string>
+    <string name="modificar_tarea">Modify</string>
+    <string name="pista_contraseña">Password</string>
+    <string name="pista_coste">Cost</string>
+    <string name="pista_descripcion">Description</string>
+    <string name="pista_fecha">Date</string>
+    <string name="pista_nombre">Name</string>
+    <string name="pista_usuario">User</string>
+    <string name="radio_no">No</string>
+    <string name="radio_si">Yes</string>
+    <string name="texto_contacto">Contact:</string>
+    <string name="texto_tarea_terminada">Done:</string>
+    <string name="toast_nombre">Task have not name</string>
+    <string name="volver">Return</string>
+    <string name="prioridad_urgente">Urgent</string>
+    <string name="prioridad_baja">Low</string>
+    <string name="prioridad_alta">High</string>
+    <string name="prioridad_media">Medium</string>
+    <string name="toast_coste">Task have not cost</string>
+    <string name="toast_descripcion">Task have not description</string>
+    <string name="toast_fecha">Task have mnot date</string>
+    <string name="toast_hecha">" The task has not been marked as finished or not completed"</string>
+</resources>

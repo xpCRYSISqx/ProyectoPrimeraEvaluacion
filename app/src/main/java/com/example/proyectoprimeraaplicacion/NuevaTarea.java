@@ -31,7 +31,7 @@ public class NuevaTarea extends AppCompatActivity implements View.OnClickListene
         setContentView(R.layout.activity_nueva_tarea);
 
         Spinner prioridad = (Spinner) findViewById(R.id.prioridad);
-        String []opciones = {"URGENTE", "Alta", "Media", "Baja"};
+        String []opciones = {getString(R.string.prioridad_urgente), getString(R.string.prioridad_alta), getString(R.string.prioridad_media), getString(R.string.prioridad_baja)};
         ArrayAdapter<String> adapter =  new ArrayAdapter <String> (this, R.layout.textview_estilo, opciones);
         prioridad.setAdapter(adapter);
 
@@ -68,19 +68,19 @@ public class NuevaTarea extends AppCompatActivity implements View.OnClickListene
             hecha = "";
 
         if(nombre.equals("")){
-            Toast notificacion = Toast.makeText(this, "La tarea no tiene nombre", Toast.LENGTH_LONG);
+            Toast notificacion = Toast.makeText(this, getString(R.string.toast_nombre), Toast.LENGTH_LONG);
             notificacion.show();
         }else if(descripcion.equals("")){
-            Toast notificacion = Toast.makeText(this, "La tarea no tiene descripcion", Toast.LENGTH_LONG);
+            Toast notificacion = Toast.makeText(this, getString(R.string.toast_descripcion), Toast.LENGTH_LONG);
             notificacion.show();
         } else if(fecha.equals("")){
-            Toast notificacion = Toast.makeText(this, "La tarea no tiene fecha", Toast.LENGTH_LONG);
+            Toast notificacion = Toast.makeText(this, getString(R.string.toast_fecha), Toast.LENGTH_LONG);
             notificacion.show();
         } else if(coste.equals("")) {
-            Toast notificacion = Toast.makeText(this, "La tarea no tiene un coste", Toast.LENGTH_LONG);
+            Toast notificacion = Toast.makeText(this, getString(R.string.toast_coste), Toast.LENGTH_LONG);
             notificacion.show();
         } else if(hecha.equals("")) {
-            Toast notificacion = Toast.makeText(this, "El estado de realizacion de la tarea tiene que estar seleccionado", Toast.LENGTH_LONG);
+            Toast notificacion = Toast.makeText(this, getString(R.string.toast_hecha), Toast.LENGTH_LONG);
             notificacion.show();
         }else {
             ContentValues tarea = new ContentValues();

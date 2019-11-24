@@ -19,7 +19,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -67,8 +66,8 @@ public class ListaTareasPendientes extends AppCompatActivity {
                     nombre = fila.getString(0);
                     descripcion = fila.getString(1);
                     fecha = fila.getString(2);
-                    coste = fila.getString(3);
-                    prioridad = fila.getString(4);
+                    prioridad = fila.getString(3);
+                    coste = fila.getString(4);
                     hecha = fila.getString(5);
                     Tarea tarea = new Tarea(nombre, descripcion, fecha, coste, prioridad, hecha);
                     listaTareas.add(tarea);
@@ -80,12 +79,17 @@ public class ListaTareasPendientes extends AppCompatActivity {
 
         adaptador = new AdaptadorTarea(this);
         lista.setAdapter(adaptador);
+        final Intent i2 = new Intent(this, DetallesTarea.class);
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                final int posicion=i;
-
+                i2.putExtra("nombre", listaTareas.get(i).getNombre());
+                i2.putExtra("prioridad", listaTareas.get(i).getPrioridad());
+                i2.putExtra("descripcion", listaTareas.get(i).getDescripcion());
+                i2.putExtra("fecha", listaTareas.get(i).getFehca());
+                i2.putExtra("coste", listaTareas.get(i).getCoste());
+                startActivity(i2);
         }});
         registerForContextMenu(lista);
     }
