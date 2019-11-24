@@ -9,9 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NuevaTarea" android:label="@string/actividad_nueva_tarea"></activity>
-        <activity android:name=".ListaTareasPendientes" android:label="@string/actividad_tareas_pendientes"/>
-        <activity android:name=".ListaTareasHechas" android:label="@string/actividad_tareas_hechas"/>
+        <activity android:name=".DetalelsTarea"></activity>
+        <activity android:name=".AcercaDe" />
+        <activity
+            android:name=".NuevaTarea"
+            android:label="@string/actividad_nueva_tarea" />
+        <activity
+            android:name=".ListaTareasPendientes"
+            android:label="@string/actividad_tareas_pendientes" />
+        <activity
+            android:name=".ListaTareasHechas"
+            android:label="@string/actividad_tareas_hechas" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -19,4 +19,12 @@
     <string name="radio_si">Si</string>
     <string name="radio_no">No</string>
     <string name="toast_nombre">La tarea no tiene nombre</string>
+    <string name="cambiar_contrasena">Cambiar Contraseña</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="modificar_tarea">Modificar</string>
+    <string name="borrar_tarea">Borrar</string>
+    <string name="autor">Autor: Mikel Gozalo Quintás</string>
+    <string name="texto_contacto">Contacto:</string>
+    <string name="correo">mikel.gozaloq@elorrieta-errekamari.com</string>
+    <string name="volver">Volver</string>
 </resources>

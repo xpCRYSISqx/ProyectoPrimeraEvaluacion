@@ -16,8 +16,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.proyectoprimeraaplicacion.DetalelsTarea" />
+        <activity android:name="com.example.proyectoprimeraaplicacion.AcercaDe" />
         <activity
             android:name="com.example.proyectoprimeraaplicacion.NuevaTarea"
             android:label="@string/actividad_nueva_tarea" />
