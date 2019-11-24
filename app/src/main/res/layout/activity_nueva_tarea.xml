@@ -94,4 +94,43 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/texto_tarea_terminada"
+        android:textColor="@color/textColorHint"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="@+id/textCoste"
+        app:layout_constraintTop_toBottomOf="@+id/textCoste" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/radioSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_si"
+            android:textColor="@color/textColorHint"
+            android:textSize="21sp" />
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_no"
+            android:textColor="@color/textColorHint"
+            android:textSize="21sp" />
+
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

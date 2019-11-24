@@ -8,7 +8,7 @@
     tools:context=".ListaTareasPendientes">
 
     <ListView
-        android:id="@+id/listaTareas"
+        android:id="@+id/listaTareasP"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="24dp"
@@ -28,8 +28,8 @@
         android:background="@color/colorPrimaryDark"
         android:onClick="nuevaTareaP"
         android:text="@string/boton_lista_nueva"
-        app:layout_constraintStart_toStartOf="@+id/listaTareas"
-        app:layout_constraintTop_toBottomOf="@+id/listaTareas" />
+        app:layout_constraintStart_toStartOf="@+id/listaTareasP"
+        app:layout_constraintTop_toBottomOf="@+id/listaTareasP" />
 
     <Button
         android:id="@+id/hechas"
@@ -37,7 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@color/colorPrimaryDark"
+        android:onClick="irListaTareasHechas"
         android:text="@string/boton_lista_hecha"
-        app:layout_constraintEnd_toEndOf="@+id/listaTareas"
-        app:layout_constraintTop_toBottomOf="@+id/listaTareas" />
+        app:layout_constraintEnd_toEndOf="@+id/listaTareasP"
+        app:layout_constraintTop_toBottomOf="@+id/listaTareasP" />
 </androidx.constraintlayout.widget.ConstraintLayout>

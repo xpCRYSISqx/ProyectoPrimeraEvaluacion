@@ -6,9 +6,9 @@ public class Tarea {
     String fehca;
     String prioridad;
     String coste;
-    boolean hecha;
+    String hecha;
 
-    public Tarea(String nombre, String descripcion, String fehca, String prioridad, String coste, boolean hecha){
+    public Tarea(String nombre, String descripcion, String fehca, String prioridad, String coste, String hecha){
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.fehca = fehca;
@@ -37,7 +37,7 @@ public class Tarea {
         return coste;
     }
 
-    public boolean isHecha() {
+    public String isHecha() {
         return hecha;
     }
 }

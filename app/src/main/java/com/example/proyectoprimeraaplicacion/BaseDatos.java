@@ -15,7 +15,7 @@ public class BaseDatos extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("create table tareas(nombre text primary key, descriocion text, fecha text, coste text, prioridad text, hecha boolean)");
+        sqLiteDatabase.execSQL("create table tareas(nombre text primary key, descriocion text, fecha text, coste text, prioridad text, hecha text)");
     }
 
     @Override

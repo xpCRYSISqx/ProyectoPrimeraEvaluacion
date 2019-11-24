@@ -15,4 +15,8 @@
     <string name="actividad_nueva_tarea">Nueva tarea</string>
     <string name="actividad_tareas_pendientes">Tareas pendientes</string>
     <string name="actividad_tareas_hechas">Tareas hechas</string>
+    <string name="texto_tarea_terminada">Tarea terminada:</string>
+    <string name="radio_si">Si</string>
+    <string name="radio_no">No</string>
+    <string name="toast_nombre">La tarea no tiene nombre</string>
 </resources>
